@@ -1,6 +1,5 @@
 var cacheName = 'flappyBird';
 var filesToCache = [
-  '/',
   '/index.html',
   '/script.js',
   
