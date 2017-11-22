@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <style>
+    
+canvas {
+    border:5px solid #d3d3d3;
+    background-color: aliceblue;
+}
+    #button{
+        
+        background-color: bisque;
+        text-align: center;
+        font-family: fantasy;
+        text-decoration-color: blue;
+        font-size: 125%;
+    }
+    
+    #block{
+        background-color: cadetblue;
+    }
+    
+    
+    #body{
+        background-color: blueviolet;
+    }
+    
+    
+    
+</style>
+    
+</head>
+    
+    <script type="text/javascript" src="script.js"></script>
+   
+    <body id="body" onload="startGame()" >
+    
+     <br>
+     <br>
+     <br>
+    
+      <button id="button" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+
+    <p>Use the ACCELERATE button to stay in the air</p>
+
+    <p>How long can you stay alive?</p>
+
+    
+    </body>
+</html>
