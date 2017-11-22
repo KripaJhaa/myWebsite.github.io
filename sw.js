@@ -1,7 +1,7 @@
 var cacheName = 'flappyBird';
 var filesToCache = [
   '/',
-  '/pwa.html',
+  '/index.html',
   '/script.js',
   
 ];
